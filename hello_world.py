@@ -4,6 +4,9 @@ import numpy as np
 #It also runs the array through a gaussian function that produces data for a yaxis
 #When the outputs are plotted it will produce a gaussian distribution
 
+#Input : xarray (Array of int or float)
+#Ouput : sorted_xarray (Array of int or float), yarray (Array of float)
+ 
 def gauss(xarray):
     sorted_xarray = np.sort(xarray)
 
